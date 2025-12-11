@@ -20,5 +20,8 @@ The most accurate and premium **CGPA Calculator** and **SGPA Calculator** design
 ## 🏷️ Keywords
 SRM GPA Calculator, SRM CGPA Calculator, Calculate SGPA SRM, SRMIST Grade Calculator, SRM Grades, SRM University CGPA, SRM Result Calculation.
 
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ---
 *Created with ❤️ by Justin*
