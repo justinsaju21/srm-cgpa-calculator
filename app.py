@@ -22,14 +22,17 @@ st.markdown("""
     /* Main Container */
     .main .block-container {
         max-width: 900px;
-        padding: 1rem 1rem;
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
     }
     
     /* Header Styling */
     .main-header {
         text-align: center;
         margin-bottom: 2rem;
-        padding: 1rem 0 0 0;
+        padding-top: 0 !important;
     }
     .main-header h1 {
         font-size: 3.2rem;
