@@ -481,6 +481,10 @@ def main():
     st.markdown(f"""
         <div class="footer">
             <p>Created by Streamlit with ❤️ by Justin</p>
+            <p style="font-size: 0.7rem; opacity: 0.4; margin-top: 1rem;">
+                Disclaimer: This tool is for educational purposes only. Provided "AS IS" without warranty of any kind.<br>
+                Please verify all results with your official university records.
+            </p>
         </div>
     """, unsafe_allow_html=True)
 
