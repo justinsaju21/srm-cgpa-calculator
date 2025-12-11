@@ -296,6 +296,10 @@ def main():
         <div class="main-header">
             <h1>SRM GPA Calculator</h1>
             <div class="subtitle">CALCULATE YOUR GRADE POINT AVERAGE</div>
+            <p style="color: #64748b; margin-top: 1rem; font-size: 0.9rem;">
+                The best tool to calculate SGPA & CGPA for SRMIST students. <br>
+                Official SRM Grading System • 100% Accurate • Private
+            </p>
         </div>
     """, unsafe_allow_html=True)
 
