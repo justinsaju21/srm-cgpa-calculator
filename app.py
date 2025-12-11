@@ -22,10 +22,11 @@ st.markdown("""
     /* Main Container */
     .main .block-container {
         max-width: 900px;
-        padding-top: 1rem !important;
+        padding-top: 0rem !important;
         padding-bottom: 1rem !important;
         padding-left: 1rem !important;
         padding-right: 1rem !important;
+        margin-top: -2rem !important;
     }
     
     /* Header Styling */
