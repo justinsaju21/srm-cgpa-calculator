@@ -3,7 +3,7 @@ from datetime import datetime
 
 # Page Configuration
 st.set_page_config(
-    page_title="SRM GPA Calculator",
+    page_title="SRM CGPA & GPA Calculator",
     page_icon="🎓",
     layout="centered",
     initial_sidebar_state="collapsed"
@@ -251,7 +251,6 @@ st.markdown("""
     /* Hide Streamlit Branding */
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
-    header {visibility: hidden;}
     </style>
 """, unsafe_allow_html=True)
 
@@ -338,6 +337,22 @@ def main():
             )
         
         courses_data.append({'credits': credits, 'grade': grade})
+
+    # Add/Remove Course Controls
+    col_add, col_remove = st.columns(2)
+    
+    with col_add:
+        if st.button("➕ Add Course", use_container_width=True, key="add_btn"):
+            st.session_state.num_courses += 1
+            st.session_state.show_result = False
+            st.rerun()
+    
+    with col_remove:
+        if st.button("➖ Remove Course", use_container_width=True, key="remove_btn", disabled=(st.session_state.num_courses <= 1)):
+            if st.session_state.num_courses > 1:
+                st.session_state.num_courses -= 1
+                st.session_state.show_result = False
+                st.rerun()
 
     st.markdown("<div class='spacer-medium'></div>", unsafe_allow_html=True)
 
