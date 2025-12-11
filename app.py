@@ -481,7 +481,7 @@ def main():
     st.markdown(f"""
         <div class="footer">
             <p>Created by Streamlit with ❤️ by Justin</p>
-            <p style="font-size: 0.7rem; opacity: 0.4; margin-top: 1rem;">
+            <p style="font-size: 0.75rem; opacity: 0.7; margin-top: 1rem; font-style: italic;">
                 Disclaimer: This tool is for educational purposes only. Provided "AS IS" without warranty of any kind.<br>
                 Please verify all results with your official university records.
             </p>
